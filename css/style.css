@@ -15,6 +15,10 @@
 	--main-font: 'Montserrat', sans-serif;
 }
 
+* {
+	overflow: hidden;
+}
+
 body {
 	overflow-x: hidden;
 	position: relative;
@@ -489,52 +493,6 @@ a.more {
 	top: 8px;
 }
 
-/*! TO BE DELETED */
-/* .popular-product {
-	padding: 0 0 7rem 0;
-}
-.popular-product .product-item-sm h3 {
-	font-size: 14px;
-	font-weight: 700;
-	color: var(--bg-color);
-}
-.popular-product .product-item-sm a {
-	text-decoration: none;
-	color: var(--bg-color);
-	-webkit-transition: 0.3s all ease;
-	-o-transition: 0.3s all ease;
-	transition: 0.3s all ease;
-}
-.popular-product .product-item-sm a:hover {
-	color: var(--accent-color);
-}
-.popular-product .product-item-sm p {
-	line-height: 1.4;
-	margin-bottom: 10px;
-	font-size: 14px;
-}
-.popular-product .product-item-sm .thumbnail {
-	margin-right: 10px;
-	-webkit-box-flex: 0;
-	-ms-flex: 0 0 120px;
-	flex: 0 0 120px;
-	position: relative;
-}
-.popular-product .product-item-sm .thumbnail:before {
-	content: '';
-	position: absolute;
-	border-radius: 20px;
-	background: #dce5e4;
-	width: 98px;
-	height: 98px;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	z-index: -1;
-} */
-
 .testimonial-section {
 	padding: 3rem 0 7rem 0;
 }
@@ -649,43 +607,6 @@ a.more {
 .before-footer-section {
 	padding: 7rem 0 12rem 0 !important;
 }
-
-/* .blog-section {
-	padding: 7rem 0 12rem 0;
-}
-.blog-section .post-entry a {
-	text-decoration: none;
-}
-.blog-section .post-entry .post-thumbnail {
-	display: block;
-	margin-bottom: 20px;
-}
-.blog-section .post-entry .post-thumbnail img {
-	border-radius: 20px;
-	-webkit-transition: 0.3s all ease;
-	-o-transition: 0.3s all ease;
-	transition: 0.3s all ease;
-}
-.blog-section .post-entry .post-content-entry {
-	padding-left: 15px;
-	padding-right: 15px;
-}
-.blog-section .post-entry .post-content-entry h3 {
-	font-size: 16px;
-	margin-bottom: 0;
-	font-weight: 600;
-	margin-bottom: 7px;
-}
-.blog-section .post-entry .post-content-entry .meta {
-	font-size: 14px;
-}
-.blog-section .post-entry .post-content-entry .meta a {
-	font-weight: 600;
-}
-.blog-section .post-entry:hover .post-thumbnail img,
-.blog-section .post-entry:focus .post-thumbnail img {
-	opacity: 0.7;
-} */
 
 .footer-section {
 	padding: 80px 0;
