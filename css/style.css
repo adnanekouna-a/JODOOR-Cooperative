@@ -275,6 +275,7 @@ a.more {
 
 .product-section {
 	padding: 7rem 0;
+	overflow-x: hidden;
 }
 .product-section .product-item {
 	text-align: center;
@@ -492,6 +493,7 @@ a.more {
 
 .testimonial-section {
 	padding: 3rem 0 7rem 0;
+	overflow-x: hidden;
 }
 
 .testimonial-slider-wrap {
